@@ -44,7 +44,7 @@ export function MyDropzoneStyled() {
     isDragReject,
   } = useDropzone({
     // 受け入れ可能なファイル形式を指定する
-    accept: "image/*",
+    accept: "application/pdf",
     // 受け入れ可能なファイル数を指定する
     maxFiles: 3,
   });
